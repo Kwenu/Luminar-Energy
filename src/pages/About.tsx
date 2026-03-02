@@ -1,11 +1,7 @@
-import React from "react";
 import {
   CheckIcon,
   ArrowRightIcon,
-  UsersIcon,
   AwardIcon,
-  MapPinIcon,
-  CalendarIcon,
 } from "lucide-react";
 
 import type { Page } from "../App";

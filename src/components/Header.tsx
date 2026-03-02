@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { MenuIcon, XIcon } from "lucide-react";
 import type { Page } from "../App";
 import logo from "../assets/logo.png";

@@ -1,4 +1,3 @@
-import React from "react";
 import { PhoneIcon, MailIcon, MapPinIcon } from "lucide-react";
 import type { Page } from "../App";
 import logo from "../assets/logo.png";
