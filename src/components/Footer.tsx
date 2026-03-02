@@ -20,7 +20,7 @@ export function Footer({ navigate }: FooterProps) {
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-40">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
           {/* Brand Column */}
           <div>
             <button
@@ -54,7 +54,7 @@ export function Footer({ navigate }: FooterProps) {
           </div>
 
           {/* Links Column */}
-          <div className="ml-12">
+          <div>
             <h3
               className="text-sm font-semibold uppercase tracking-wider mb-4"
               style={{
