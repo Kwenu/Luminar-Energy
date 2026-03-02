@@ -1,10 +1,6 @@
 import React from "react";
 import {
   CheckIcon,
-  WrenchIcon,
-  ShieldCheckIcon,
-  ZapIcon,
-  BarChart2Icon,
   ArrowRightIcon,
 } from "lucide-react";
 import type { Page } from "../App";
@@ -12,11 +8,17 @@ import image1 from "../assets/img1.jpeg";
 import image2 from "../assets/img2.jpg";
 import image3 from "../assets/img3.jpg";
 import image4 from "../assets/img4.jpg";
+
 interface ServicesProps {
   navigate: (page: Page) => void;
 }
 
-function ServiceImageCard({ src, label }) {
+type ServiceImageCardProps = {
+  src: string;
+  label: string;
+};
+
+function ServiceImageCard({ src, label }: ServiceImageCardProps) {
   return (
     <div
       className="rounded-2xl overflow-hidden relative shadow-sm"
@@ -186,37 +188,6 @@ export function Services({ navigate }: ServicesProps) {
               </ul>
             </div>
             <ServiceImageCard src={image1} label="Solar Panel Cleaning" />
-            {/* <div
-              className="rounded-2xl p-10 flex items-center justify-center"
-              style={{
-                backgroundColor: "#f9fafb",
-                border: "1px solid #e5e7eb",
-                minHeight: "260px",
-              }}
-            > */}
-            {/* <div className="text-center">
-              <div
-                className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4"
-                style={{
-                  backgroundColor: "#fffbeb",
-                }}
-              >
-                <WrenchIcon
-                  className="w-8 h-8"
-                  style={{
-                    color: "#f59e0b",
-                  }}
-                />
-              </div>
-              <p
-                className="text-sm font-medium"
-                style={{
-                  color: "#9ca3af",
-                }}
-              >
-                Panel Cleaning Service
-              </p>
-            </div> */}
           </div>
         </div>
       </section>
@@ -231,38 +202,6 @@ export function Services({ navigate }: ServicesProps) {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <ServiceImageCard src={image2} label="System Health Checks" />
-            {/* <div
-              className="rounded-2xl p-10 flex items-center justify-center order-2 md:order-1"
-              style={{
-                backgroundColor: "#ffffff",
-                border: "1px solid #e5e7eb",
-                minHeight: "260px",
-              }}
-            >
-              <div className="text-center">
-                <div
-                  className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4"
-                  style={{
-                    backgroundColor: "#fffbeb",
-                  }}
-                >
-                  <ShieldCheckIcon
-                    className="w-8 h-8"
-                    style={{
-                      color: "#f59e0b",
-                    }}
-                  />
-                </div>
-                <p
-                  className="text-sm font-medium"
-                  style={{
-                    color: "#9ca3af",
-                  }}
-                >
-                  System Inspection
-                </p>
-              </div>
-            </div> */}
             <div className="order-1 md:order-2">
               <div
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6"
@@ -472,38 +411,6 @@ export function Services({ navigate }: ServicesProps) {
               </ul>
             </div>
             <ServiceImageCard src={image3} label="Annual Maintenance Plans" />
-            {/* <div
-              className="rounded-2xl p-10 flex items-center justify-center"
-              style={{
-                backgroundColor: "#f9fafb",
-                border: "1px solid #e5e7eb",
-                minHeight: "260px",
-              }}
-            >
-              <div className="text-center">
-                <div
-                  className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4"
-                  style={{
-                    backgroundColor: "#fffbeb",
-                  }}
-                >
-                  <ZapIcon
-                    className="w-8 h-8"
-                    style={{
-                      color: "#f59e0b",
-                    }}
-                  />
-                </div>
-                <p
-                  className="text-sm font-medium"
-                  style={{
-                    color: "#9ca3af",
-                  }}
-                >
-                  Performance Monitoring
-                </p>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>
@@ -518,38 +425,6 @@ export function Services({ navigate }: ServicesProps) {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <ServiceImageCard src={image4} label="Repair & Optimization" />
-            {/* <div
-              className="rounded-2xl p-10 flex items-center justify-center order-2 md:order-1"
-              style={{
-                backgroundColor: "#ffffff",
-                border: "1px solid #e5e7eb",
-                minHeight: "260px",
-              }}
-            >
-              <div className="text-center">
-                <div
-                  className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4"
-                  style={{
-                    backgroundColor: "#fffbeb",
-                  }}
-                >
-                  <BarChart2Icon
-                    className="w-8 h-8"
-                    style={{
-                      color: "#f59e0b",
-                    }}
-                  />
-                </div>
-                <p
-                  className="text-sm font-medium"
-                  style={{
-                    color: "#9ca3af",
-                  }}
-                >
-                  Repair & Optimization
-                </p>
-              </div>
-            </div> */}
             <div className="order-1 md:order-2">
               <div
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6"
