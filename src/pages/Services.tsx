@@ -87,7 +87,7 @@ export function Services({ navigate }: ServicesProps) {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <div
+              {/* <div
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6"
                 style={{
                   backgroundColor: "#fffbeb",
@@ -96,7 +96,7 @@ export function Services({ navigate }: ServicesProps) {
                 }}
               >
                 Service 01
-              </div>
+              </div> */}
               <h2
                 className="text-3xl font-bold mb-4"
                 style={{
@@ -130,7 +130,7 @@ export function Services({ navigate }: ServicesProps) {
                       color: "#6b7280",
                     }}
                   >
-                    Purified water — no mineral deposits or streaks
+                    Purified water, no mineral deposits or streaks
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -202,7 +202,7 @@ export function Services({ navigate }: ServicesProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <ServiceImageCard src={image2} label="System Health Checks" />
             <div className="order-1 md:order-2">
-              <div
+              {/* <div
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6"
                 style={{
                   backgroundColor: "#fffbeb",
@@ -211,7 +211,7 @@ export function Services({ navigate }: ServicesProps) {
                 }}
               >
                 Service 02
-              </div>
+              </div> */}
               <h2
                 className="text-3xl font-bold mb-4"
                 style={{
@@ -227,8 +227,8 @@ export function Services({ navigate }: ServicesProps) {
                 }}
               >
                 A thorough physical and electrical inspection of your entire
-                solar system — panels, inverters, mounting structures, wiring,
-                and junction boxes — to identify issues before they escalate.
+                solar system panels, inverters, mounting structures, wiring,
+                and junction boxes to identify issues before they escalate.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
@@ -310,7 +310,7 @@ export function Services({ navigate }: ServicesProps) {
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <div
+              {/* <div
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6"
                 style={{
                   backgroundColor: "#fffbeb",
@@ -319,7 +319,7 @@ export function Services({ navigate }: ServicesProps) {
                 }}
               >
                 Service 03
-              </div>
+              </div> */}
               <h2
                 className="text-3xl font-bold mb-4"
                 style={{
@@ -425,7 +425,7 @@ export function Services({ navigate }: ServicesProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <ServiceImageCard src={image4} label="Repair & Optimization" />
             <div className="order-1 md:order-2">
-              <div
+              {/* <div
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6"
                 style={{
                   backgroundColor: "#fffbeb",
@@ -434,7 +434,7 @@ export function Services({ navigate }: ServicesProps) {
                 }}
               >
                 Service 04
-              </div>
+              </div> */}
               <h2
                 className="text-3xl font-bold mb-4"
                 style={{
@@ -609,7 +609,7 @@ export function Services({ navigate }: ServicesProps) {
                     color: "#111111",
                   }}
                 >
-                  LKR 4,500
+                  LKR 10,000+
                 </span>
               </div>
               <div className="text-center">
@@ -619,7 +619,7 @@ export function Services({ navigate }: ServicesProps) {
                     color: "#111111",
                   }}
                 >
-                  LKR 12,000
+                  LKR 20,000+
                 </span>
               </div>
               <div className="text-center">
@@ -667,7 +667,7 @@ export function Services({ navigate }: ServicesProps) {
                     color: "#111111",
                   }}
                 >
-                  LKR 14,000
+                  LKR 35,000+
                 </span>
                 <span
                   className="text-xs block"
@@ -685,7 +685,7 @@ export function Services({ navigate }: ServicesProps) {
                     color: "#111111",
                   }}
                 >
-                  LKR 38,000
+                  LKR 70,000+
                 </span>
                 <span
                   className="text-xs block"
@@ -709,7 +709,7 @@ export function Services({ navigate }: ServicesProps) {
             </div>
 
             {/* Row 3 */}
-            <div
+            {/* <div
               className="grid grid-cols-4 px-6 py-5 items-center"
               style={{
                 backgroundColor: "#ffffff",
@@ -779,7 +779,7 @@ export function Services({ navigate }: ServicesProps) {
                   Custom
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <p

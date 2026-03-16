@@ -86,7 +86,7 @@ export function Home({ navigate }: HomeProps) {
               borderTop: "1px solid #e5e7eb",
             }}
           >
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <CheckIcon
                 className="w-4 h-4"
                 style={{
@@ -136,7 +136,7 @@ export function Home({ navigate }: HomeProps) {
               >
                 Certified Technicians
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

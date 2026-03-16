@@ -1,8 +1,4 @@
-import {
-  CheckIcon,
-  ArrowRightIcon,
-  AwardIcon,
-} from "lucide-react";
+import { CheckIcon, ArrowRightIcon, AwardIcon } from "lucide-react";
 
 import type { Page } from "../App";
 interface AboutProps {
@@ -49,140 +45,128 @@ export function About({ navigate }: AboutProps) {
 
       {/* Company Story */}
       <section className="w-full py-20 px-4 bg-white">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-14 lg:gap-20 items-center">
+            {/* Left Content */}
             <div>
               <h2
-                className="text-3xl font-bold mb-6"
+                className="text-3xl md:text-4xl font-bold mb-6 leading-tight"
                 style={{
                   color: "#111111",
                 }}
               >
                 Who We Are
               </h2>
+
               <p
-                className="text-base leading-relaxed mb-5"
+                className="text-base leading-8 mb-5"
                 style={{
                   color: "#6b7280",
                 }}
               >
-                Luminar Energy was established in 2026 by a team of electrical
-                engineers and renewable energy specialists who recognized a
-                critical gap in Sri Lanka's solar industry: the lack of
-                dedicated, professional maintenance services. While solar
-                installations were growing rapidly, system owners had no
-                reliable partner to keep their panels performing optimally.
+                Luminar Energy was established by a team of electrical engineers
+                and renewable energy specialists who recognized a critical gap
+                in Sri Lanka's solar industry: the lack of dedicated,
+                professional maintenance services. While solar installations
+                were growing rapidly, system owners had no reliable partner to
+                keep their panels performing optimally.
               </p>
+
               <p
-                className="text-base leading-relaxed"
+                className="text-base leading-8"
                 style={{
                   color: "#6b7280",
                 }}
               >
-                Today, we are Sri Lanka's leading solar maintenance company,
-                serving over 500 residential, commercial, and industrial clients
-                from Jaffna to Galle. Our team of 35 certified technicians
-                operates island-wide, bringing international-standard
-                maintenance practices to every job site.
+                Today, we support residential, commercial, and industrial
+                clients across Sri Lanka with dependable solar maintenance
+                solutions. Our certified technicians operate island-wide,
+                bringing professional service standards, technical expertise,
+                and long-term care to every installation.
               </p>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-2 gap-4">
+            {/* Right Highlight Card */}
+            <div>
               <div
-                className="p-6 rounded-xl text-center"
+                className="rounded-2xl p-8 md:p-10"
                 style={{
-                  backgroundColor: "#f9fafb",
-                  border: "1px solid #e5e7eb",
+                  background:
+                    "linear-gradient(135deg, #fff7ed 0%, #ffffff 100%)",
+                  border: "1px solid #fde68a",
+                  boxShadow: "0 10px 30px rgba(0,0,0,0.04)",
                 }}
               >
-                <div
-                  className="text-3xl font-bold mb-1"
+                <h3
+                  className="text-2xl font-bold mb-3"
                   style={{
                     color: "#111111",
                   }}
                 >
-                  10+
-                </div>
-                <div
-                  className="text-sm"
+                  Trusted Solar Maintenance Across Sri Lanka
+                </h3>
+
+                <p
+                  className="text-sm leading-7 mb-8"
                   style={{
                     color: "#6b7280",
                   }}
                 >
-                  Systems Maintained
-                </div>
-              </div>
-              <div
-                className="p-6 rounded-xl text-center"
-                style={{
-                  backgroundColor: "#f9fafb",
-                  border: "1px solid #e5e7eb",
-                }}
-              >
-                <div
-                  className="text-3xl font-bold mb-1"
-                  style={{
-                    color: "#111111",
-                  }}
-                >
-                  1
-                </div>
-                <div
-                  className="text-sm"
-                  style={{
-                    color: "#6b7280",
-                  }}
-                >
-                  Years Experience
-                </div>
-              </div>
-              <div
-                className="p-6 rounded-xl text-center"
-                style={{
-                  backgroundColor: "#f9fafb",
-                  border: "1px solid #e5e7eb",
-                }}
-              >
-                <div
-                  className="text-3xl font-bold mb-1"
-                  style={{
-                    color: "#111111",
-                  }}
-                >
-                  15
-                </div>
-                <div
-                  className="text-sm"
-                  style={{
-                    color: "#6b7280",
-                  }}
-                >
-                  Certified Technicians
-                </div>
-              </div>
-              <div
-                className="p-6 rounded-xl text-center"
-                style={{
-                  backgroundColor: "#f9fafb",
-                  border: "1px solid #e5e7eb",
-                }}
-              >
-                <div
-                  className="text-3xl font-bold mb-1"
-                  style={{
-                    color: "#111111",
-                  }}
-                >
-                  20
-                </div>
-                <div
-                  className="text-sm"
-                  style={{
-                    color: "#6b7280",
-                  }}
-                >
-                  Districts Covered
+                  We focus on keeping solar systems clean, safe, and efficient
+                  with maintenance services tailored for homes, businesses, and
+                  larger installations.
+                </p>
+
+                <div className="grid grid-cols-2 gap-4">
+                  <div
+                    className="rounded-xl p-5 text-center"
+                    style={{
+                      backgroundColor: "#ffffff",
+                      border: "1px solid #e5e7eb",
+                    }}
+                  >
+                    <div
+                      className="text-3xl font-bold mb-1"
+                      style={{
+                        color: "#f98a10",
+                      }}
+                    >
+                      15
+                    </div>
+                    <div
+                      className="text-sm"
+                      style={{
+                        color: "#6b7280",
+                      }}
+                    >
+                      Certified Technicians
+                    </div>
+                  </div>
+
+                  <div
+                    className="rounded-xl p-5 text-center"
+                    style={{
+                      backgroundColor: "#ffffff",
+                      border: "1px solid #e5e7eb",
+                    }}
+                  >
+                    <div
+                      className="text-3xl font-bold mb-1"
+                      style={{
+                        color: "#f98a10",
+                      }}
+                    >
+                      20
+                    </div>
+                    <div
+                      className="text-sm"
+                      style={{
+                        color: "#6b7280",
+                      }}
+                    >
+                      Districts Covered
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
